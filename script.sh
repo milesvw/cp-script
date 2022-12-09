@@ -1,7 +1,7 @@
 cd ~
 
 sudo apt update
-sudo apt install openssh-server ufw clamav -y
+sudo apt install openssh-server ufw clamav netstat git -y
 sudo systemctl enable ssh --now
 
 sudo apt upgrade -y
