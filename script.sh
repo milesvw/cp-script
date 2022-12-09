@@ -15,6 +15,8 @@ sudo ufw allow ftp
 
 sudo apt purge zangband ophcrack transmission-gtk transmission-common bittorrent nmap hydra -y
 
+sudo clamscan
+
 
 # Change simple passwords
 # Check admin and authorized users
