@@ -1,19 +1,17 @@
-sudo su -
-
-apt update
-apt install openssh-server ufw clamav -y
+sudo apt update
+sudo apt install openssh-server ufw clamav -y
 sudo systemctl enable ssh --now
 
-apt upgrade -y
-apt autoremove -y
+sudo apt upgrade -y
+sudo apt autoremove -y
 
-ufw enable
-ufw default deny incoming
-ufw default allow outgoing
-ufw allow ssh
-ufw allow ftp
+sudo ufw enable
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw allow ftp
 
-apt purge ophcrack transmission-gtk transmission-common bittorrent nmap hydra -y
+sudo apt purge ophcrack transmission-gtk transmission-common bittorrent nmap hydra -y
 
 
 # Change simple passwords
