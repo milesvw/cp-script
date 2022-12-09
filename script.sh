@@ -13,7 +13,7 @@ sudo ufw default allow outgoing
 sudo ufw allow ssh
 sudo ufw allow ftp
 
-sudo apt purge ophcrack transmission-gtk transmission-common bittorrent nmap hydra -y
+sudo apt purge zangband ophcrack transmission-gtk transmission-common bittorrent nmap hydra -y
 
 
 # Change simple passwords
